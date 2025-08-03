@@ -1,0 +1,181 @@
+    1  sudo apt update
+    2  ll
+    3  date
+    4  cal
+    5  apt install ncal
+    6  sudo apt install ncal
+    7  ncal
+    8  tree
+    9  sudo apt install tree
+   10  tree
+   11  ll
+   12  cd .
+   13  cd /etc/
+   14  tree
+   15  ls
+   16  tree
+   17  cd
+   18  pwd
+   19  sudo apt docker -y
+   20  sudo apt docker.io -y
+   21  sudo apt-get docker.io -y
+   22  sudo apt install docker.io
+   23  docker ps
+   24  sudo docker ps
+   25  groups
+   26  sudo apt uninstall tree
+   27  sudo apt remove tree
+   28  tree
+   29  sudo apt install tree
+   30  vi /etc/hostname 
+   31  cd /etc/
+   32  ll
+   33  vi hostname 
+   34  sudo vi hostname 
+   35  cd
+   36  cat /etc/hostname 
+   37  sudo reboot
+   38  clear
+   39  top
+   40  stop
+   41  htop
+   42  whoami
+   43  cd
+   44  cat /etc/group
+   45  sudo apt install docker.io
+   46  docker ps
+   47  sudo usermod -aG docker $USER
+   48  cat /etc/group
+   49  docker ps
+   50  sudo reboot
+   51  sudo apt install jenkins
+   52  vi jenkins-setup-script.sh
+   53  ls -la
+   54  sudo chmod +X jenkins-setup-script.sh 
+   55  ls -la
+   56  sudo chmod +x jenkins-setup-script.sh 
+   57  ls -la
+   58  ./jenkins-setup-script.sh 
+   59  sudo systemctl enable jenkins
+   60  sudo systemctl start jenkins
+   61  sudo systemctl enable jenkins
+   62  sudo systemctl status jenkins.service
+   63  sudo systemctl start jenkins.service
+   64  sudo systemctl enable jenkins.service
+   65  sudo systemctl start jenkins.service
+   66  sudo journalctl -xeu jenkins.service
+   67  sudo journalctl -xeu jenkins.service | tail -n 30
+   68  java -version
+   69  sudo chown -R jenkins:jenkins /var/lib/jenkins /var/log/jenkins /var/cache/jenkins
+   70  sudo lsof -i :8080
+   71  sudo vi /etc/default/jenkins
+   72  sudo systemctl start jenkins.service
+   73  sudo systemctl enable jenkins.service
+   74  sudo systemctl start jenkins.service
+   75  sudo cat /var/log/jenkins/jenkins.log | tail -n 30
+   76  vi new-jenkin-setup.sh
+   77  sudo chmod 777 new-jenkin-setup.sh 
+   78  ./new-jenkin-setup.sh 
+   79  sudo systemctl status jenkins
+   80  sudo lsof -i -P -n | grep java
+   81  sudo netstat -tulpn | grep 8080
+   82  ps aux | grep jenkins
+   83  ll
+   84  vi new-jenkin-setup.sh 
+   85  cat new-jenkin-setup.sh 
+   86  sudo su -
+   87  cat /etc/group
+   88  docker ps
+   89  sudo adduser kalyani
+   90  su kalyani
+   91  sudo root
+   92  sudo su -
+   93  sudo su bambal
+   94  sudo su bambal
+   95  cd /home/
+   96  ll
+   97  cd ..
+   98  LS
+   99  ll
+  100  ll wc
+  101  ll | wc 
+  102  cd bin
+  103  ll
+  104  pwd
+  105  cd ../usr
+  106  pwd
+  107  ls
+  108  ll
+  109  cd bin/
+  110  ll
+  111  cd ..
+  112  ll
+  113  cd ..
+  114  cd /boot
+  115  ll
+  116  cd ../dev/
+  117  ll
+  118  cd
+  119  mkdir ashu
+  120  cd ashu/
+  121  touch file1
+  122  cd
+  123  rm ashu/
+  124  cd ashu/
+  125  rm file1 
+  126  cd ..
+  127  rm ashu/
+  128  rm -f ashu/
+  129  rm -m ashu/
+  130  rmdir ashu/
+  131  ll
+  132  ls
+  133  mkdir ashu
+  134  cd ashu/
+  135  touch {1..100}.txt
+  136  ll
+  137  cd ..
+  138  rmdir ashu
+  139  rmdir -rf ashu
+  140  rmdir -r ashu
+  141  rmdir -rf ashu
+  142  rmdir -f ashu
+  143  rm -rf ashu
+  144  ls
+  145  mkdir ashu/ram
+  146  mkdir -r ashu/ram
+  147  mkdir ash
+  148  cd ash/
+  149  mkdir ram
+  150  cd ram/
+  151  touch {1..10}.txt
+  152  cd
+  153  tree
+  154  touch data
+  155  tree
+  156  rm data
+  157  tree
+  158  rmdir ash/
+  159  rm -rf ash/
+  160  tree
+  161  mkdir ashu
+  162  tree
+  163  rm ashu/
+  164  rm -r ashu/
+  165  tree
+  166  mkdir ashu
+  167  rm -f ashu
+  168  rmdir ashu
+  169  mkdir ashu
+  170  cd ashu/
+  171  touch {1..5}.txt
+  172  tree
+  173  cd 
+  174  tree
+  175  rmdir -r ashu/
+  176  rmdir -rf ashu/
+  177  rm -r ashu/
+  178  echo "Hello Dosto"
+  179  echo "My name is Ashutosh Bambal" > my_data.txt
+  180  cat my_data.txt 
+  181  history > history.txt
